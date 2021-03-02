@@ -1,0 +1,38 @@
+.column {
+    float: left;
+    text-align: center;
+}
+
+.left {
+    width: 22%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.right {
+    width: 78%;
+    height: 100vh;
+    background-color: lightgray;
+    color: white;
+}
+
+
+@media screen and (max-width: 900px) {
+    .left {
+        width: 100%;
+
+    }
+
+    .right {
+        width: 100%;
+    }
+}
+
+/**
+#12232E
+#007CC7
+#4DA8DA
+#203647
+#EEFBFB
+*/

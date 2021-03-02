@@ -1,0 +1,40 @@
+/*Profile related CSS*/
+.profile-image {
+    width: 65%;
+    border-radius: 10%;
+    justify-content: center;
+}
+
+.name {
+    font-size: xx-large;
+}
+
+.profile {
+    margin-top: 5vh;
+    align-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .name {
+        font-size: x-large;
+    }
+
+    .profile-image {
+        width: 50%;
+    }
+}
+
+/*End of Profile related CSS*/
+
+
+/* Social Media Icons*/
+
+.linkedin {
+    width: 35px;
+    height: 30px;
+    margin-left: 10%;
+}
+
+.social {
+    float: center;
+}
