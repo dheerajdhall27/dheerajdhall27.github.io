@@ -2,7 +2,6 @@ import React from 'react';
 import './Education.css'
 
 const EducationCard = (props) => {
-    console.log(props);
     return(
         <div className="education-card">
             <p className="university-name">{props.university_name}</p>

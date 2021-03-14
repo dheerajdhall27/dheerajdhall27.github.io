@@ -1,6 +1,7 @@
 import React from 'react';
 import NavigatorTabs from '../../containers/NavigatorTabs';
 import "../Layout/Layout.css"
+import TabsConsolidator from './TabsConsolidator';
 
 /**
  * This represents the Right column in this two column layout
@@ -8,7 +9,8 @@ import "../Layout/Layout.css"
  */
 const RightColumn = () => (
     <div className="column right">
-        <NavigatorTabs/>
+        {/* <NavigatorTabs/> */}
+        <TabsConsolidator/>
     </div>
 );
 
