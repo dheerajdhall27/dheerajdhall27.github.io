@@ -1,0 +1,46 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.education-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    background-color: #EEFBFB;
+    border-radius: 10px;
+    width: 55%;
+    color: black;
+    margin-top: 20px;
+    padding:5px;
+}
+
+.university-name {
+    display: flex;
+    padding-left: 10px;
+    font-size: x-large;
+    font-weight:bolder;
+}
+
+.college-name {
+    display: flex;
+    padding-left: 12px;
+    margin-top: -12px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.candidate-desc {
+    font-style: italic;
+    font-size: medium;
+    float:left;
+    padding-left: 12px;
+    margin-top: -8px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .education-card {
+        width: 100%;
+    }
+}

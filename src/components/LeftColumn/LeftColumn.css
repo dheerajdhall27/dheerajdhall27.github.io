@@ -1,7 +1,7 @@
 /*Profile related CSS*/
 .profile-image {
     width: 65%;
-    border-radius: 10%;
+    border-radius: 5%;
     justify-content: center;
 }
 
@@ -30,11 +30,15 @@
 /* Social Media Icons*/
 
 .linkedin {
-    width: 35px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
     margin-left: 10%;
 }
 
 .social {
-    float: center;
+    float: left
+}
+
+ul {
+    list-style-type: none;
 }

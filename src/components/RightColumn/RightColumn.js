@@ -1,4 +1,5 @@
 import React from 'react';
+import NavigatorTabs from '../../containers/NavigatorTabs';
 import "../Layout/Layout.css"
 
 /**
@@ -7,6 +8,7 @@ import "../Layout/Layout.css"
  */
 const RightColumn = () => (
     <div className="column right">
+        <NavigatorTabs/>
     </div>
 );
 
