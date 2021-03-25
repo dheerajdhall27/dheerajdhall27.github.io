@@ -21,7 +21,49 @@ const Project = () => {
             Description: "An image processing application to apply transformations to images",
             Stack: ["Java"],
             Link: "https://github.com/dheerajdhall27/ImageProcessing"
-        }
+        },
+        {
+            Heading: "Course Editor React",
+            Description: "An application for teachers to add course information",
+            Stack: ["React", "HTML", "JavaScript", "Bootstrap", "CSS"],
+            Link: "https://github.com/dheerajdhall27/learning_management_system_react"
+        },
+        {
+            Heading: "Course Editor",
+            Description: "Server for an application for teachers to add course information",
+            Stack: ["Java", "SpringBoot", "HTML", "Bootstrap", "CSS"],
+            Link: "https://github.com/dheerajdhall27/learning_management_system_java"
+        },
+        {
+            Heading: "Winstagram - Frontend",
+            Description: "A clone of Instagram that allows user to upload images and apply filters",
+            Stack: ["React-Redux", "Bootstrap", "CSS", "HTML"],
+            Link: "https://github.com/dheerajdhall27/winstagram_frontend_react"
+        },
+        {
+            Heading: "Winstagram - Backend",
+            Description: "Backend for the Winstagram application",
+            Stack: ["Java", "SpringBoot", "MySQL", "AWS-S3"],
+            Link: "https://github.com/dheerajdhall27/winstagram_backend_java"
+        },
+        {
+            Heading: "Distributed K-means",
+            Description: "A project to cluster regions in Chicago based on the crime rate",
+            Stack: ["Scala", "Apache Spark", "AWS-S3"],
+            Link: "https://github.com/dheerajdhall27/Kmeans"
+        },
+        {
+            Heading: "MapReduce and Spark Design Patterns",
+            Description: "A collection of implementation of Distributed design patterns",
+            Stack: ["Java", "Scala", "Apache Spark", "Hadoop MapReduce", "AWS-S3", "AWS-EMR"],
+            Link: "https://github.com/dheerajdhall27/Kmeans"
+        },
+        {
+            Heading: "Advent Of Code 2020",
+            Description: "An attempt at solving AOC 2020",
+            Stack: ["Ruby"],
+            Link: "https://github.com/dheerajdhall27/advent_of_code_2020"
+        },
     ]
 
     return(

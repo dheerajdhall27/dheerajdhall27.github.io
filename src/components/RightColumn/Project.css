@@ -1,8 +1,9 @@
 .projects-heading {
     font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .project {
     display: flex;
     flex-direction: row;
@@ -19,6 +20,8 @@
     color: black;
     border-radius: 10px;
     margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .project-body {
@@ -28,12 +31,12 @@
     padding: 10px;
 }
 
-.header {
+.project-header {
     background: #007CC7;
     color: white;
     font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
     padding: 1px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
@@ -41,7 +44,8 @@
 
 .project-description {
     font-size: larger;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
 }
 
 .project-link {
@@ -66,4 +70,16 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .project {
+        padding-left: 2%;
+    }
+    .project-card {
+        width: 88%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }

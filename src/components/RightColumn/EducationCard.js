@@ -4,9 +4,15 @@ import './Education.css'
 const EducationCard = (props) => {
     return(
         <div className="education-card">
-            <p className="university-name">{props.university_name}</p>
-            <p className="college-name">{props.college_name}</p>
-            <p className="candidate-desc">{props.desc}</p>
+            <div className="university-header">
+                <p className="university-header-text">{props.university_name}</p>
+            </div>
+            <div className="university-body">
+                <p>{props.college_name}</p>
+            </div>
+            <div className="university-footer">
+                <p>{props.desc}</p>
+            </div>
         </div>
     );
 }

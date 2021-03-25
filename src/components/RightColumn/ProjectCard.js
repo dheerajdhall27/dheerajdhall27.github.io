@@ -5,7 +5,7 @@ import './Project.css'
 const ProjectCard = (props) => {
     return(
         <div className="project-card">
-            <div className="header">
+            <div className="project-header">
                 <p>{props.Heading}</p>
             </div>
             <div className="project-body">

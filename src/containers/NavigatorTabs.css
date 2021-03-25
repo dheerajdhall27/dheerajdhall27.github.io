@@ -28,3 +28,8 @@
     position: relative;
     top: 2px;
 }
+
+.label {
+    font-family: Times, serif;
+    font-size: large;
+}

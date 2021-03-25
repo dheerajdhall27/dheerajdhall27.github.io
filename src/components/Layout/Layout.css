@@ -4,15 +4,23 @@
 }
 
 .left {
+    position: fixed;
+    height: 100%;
+    left: 0px;
+    top: 0px;
     width: 22%;
-    height: 100vh;
+    overflow: auto;
+    flex: 1;
     background-color: #12232E;
     color: white;
 }
-
+    
 .right {
+    float: right;
+    left: 30%;    
     width: 78%;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     background-color: lightgray;
     color: white;
 }
@@ -20,12 +28,14 @@
 
 @media screen and (max-width: 900px) {
     .left {
+        position: relative;
         width: 100%;
-
+        height: 100vh;
     }
 
     .right {
         width: 100%;
+        height: 100%;
     }
 }
 

@@ -21,7 +21,7 @@ const NavigatorTabs = ({children}) => {
             <ul className="tabs">
                 {
                     children.map((child, index) => { 
-                        return <li key={index} className={activeTab === child.props.label ? "current" : ""}>
+                        return <li key={index} className={activeTab === child.props.label ? "current label" : "label"}>
                                     <a href="#" onClick={(e) => handleTabClick(e, child.props.label)}>{child.props.label}</a>
                                 </li>
                     })
