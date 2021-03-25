@@ -9,7 +9,6 @@ import TabsConsolidator from './TabsConsolidator';
  */
 const RightColumn = () => (
     <div className="column right">
-        {/* <NavigatorTabs/> */}
         <TabsConsolidator/>
     </div>
 );

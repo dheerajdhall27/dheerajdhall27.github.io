@@ -1,5 +1,7 @@
 import React from 'react';
 import './About.css';
+import Introduction from './Introduction';
+import Project from './Project';
 
 
 /**
@@ -7,8 +9,9 @@ import './About.css';
  */
 const About = () => {
     return(
-        <div>
-            
+        <div className="about">
+            <Introduction/>
+            <Project/>
         </div>
     );
 }

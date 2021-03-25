@@ -1,8 +1,7 @@
 .education {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 
 .education-card {
@@ -12,35 +11,45 @@
     width: 55%;
     color: black;
     margin-top: 20px;
-    padding:5px;
+    padding-left: 10px;
 }
 
 .university-name {
     display: flex;
-    padding-left: 10px;
+    text-align: center;
     font-size: x-large;
     font-weight:bolder;
 }
 
 .college-name {
     display: flex;
-    padding-left: 12px;
     margin-top: -12px;
     font-size: large;
     font-weight: 500;
 }
 
 .candidate-desc {
+    display:block;
     font-style: italic;
     font-size: medium;
     float:left;
-    padding-left: 12px;
     margin-top: -8px;
 }
 
 
 @media screen and (max-width: 1100px) {
     .education-card {
-        width: 100%;
+        width: 94%;
+        padding-left: 10px;
+    }
+
+    .university-name {
+        text-align: left;
+        text-align-last: left;
+    }
+
+    .candidate-desc { 
+        text-align-last: left;
+        text-align: left;
     }
 }

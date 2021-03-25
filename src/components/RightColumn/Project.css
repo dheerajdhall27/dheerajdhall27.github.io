@@ -1,0 +1,69 @@
+.projects-heading {
+    font-size: xx-large;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    background-color: #EEFBFB;  
+    width: 30%;
+    color: black;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.project-body {
+    text-align: left;
+    text-align-last: left;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.header {
+    background: #007CC7;
+    color: white;
+    font-size: x-large;
+    padding: 1px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.project-description {
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.project-link {
+    padding: 10px;
+}
+
+.project-footer {
+    margin-top: auto;
+    text-align: left;
+    padding-left: 3%;
+}
+
+/*Reference W3 Schools https://www.w3schools.com/howto/howto_css_pill_button.asp*/
+.tech-pill {
+    background-color: #203647;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}

@@ -29,8 +29,8 @@ const Education = () => {
                 education.map((data, index) => {
                     return <EducationCard key={index} 
                                     university_name={data.university_name}
-                                   college_name={data.college_name}
-                                   desc={data.desc}/>
+                                    college_name={data.college_name}
+                                    desc={data.desc}/>
                 })
             }
         </div>

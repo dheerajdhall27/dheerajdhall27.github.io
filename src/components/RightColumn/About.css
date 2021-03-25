@@ -1,6 +1,14 @@
-.description {
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
     color: black;
     font-size: larger;
-    float: left;
-    margin-left: 1.5%;
+    text-align: left;
+    text-align-last: left;
+    margin-left: 2%;
 }
