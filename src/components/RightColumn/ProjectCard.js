@@ -4,7 +4,7 @@ import Link from '../../assets/Images/link.png'
 import './Project.css'
 
 const ProjectCard = (props) => {
-    console.log(props.GitHub)
+    
     return(
         <div className="project-card">
             <div className="project-header">

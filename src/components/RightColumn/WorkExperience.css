@@ -1,0 +1,66 @@
+.work-experience {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.work-experience-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    background-color: #EEFBFB;
+    width: 40%;
+    color: black;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+
+.work-experience-header {
+    background: #203647;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;    
+}
+
+.work-experience-header .company {
+    font-size: larger;
+}
+
+.work-experience-header .title {
+    font-size: medium;
+}
+
+.work-experience-body {
+    text-align: left;
+    padding: 1% 4% 4% 4%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+.work-experience-footer {
+    margin-top: auto;
+    text-align: left;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
+
+@media screen and (max-width: 900px) {
+    .work-experience {
+        padding-left: 2%;
+    }
+
+    .work-experience-card {
+        width: 88%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .work-experience-header .company {
+        font-size: large;
+    }    
+}

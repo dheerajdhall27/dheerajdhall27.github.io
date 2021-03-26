@@ -76,8 +76,8 @@ const Project = () => {
         },
         {
             Heading: "A collection of Code Pens",
-            Description: "A bunch of projects I wroked on during the 100 days of code challenge",
-            Stack: ["Reat", "Redux", "HTML", "JavaScript", "D3.js", "Bootstrap"],
+            Description: "A bunch of projects I worked on during the 100 days of code challenge",
+            Stack: ["React", "Redux", "HTML", "JavaScript", "D3.js", "Bootstrap"],
             Link: "https://codepen.io/dheerajdhall",
             GitHub: 'false'
         },
