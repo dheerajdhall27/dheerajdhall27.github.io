@@ -1,6 +1,6 @@
 import React from 'react';
-import LeftColumn from '../LeftColumn/LeftColumn';
-import RightColumn from '../RightColumn/RightColumn';
+import NavBar from '../Navbar/NavBar';
+import PageData from '../PageData/PageData';
 
 /**
  * This represents the layout of the site.
@@ -8,8 +8,8 @@ import RightColumn from '../RightColumn/RightColumn';
  */
 const Layout = (props) => (
     <div>
-        <LeftColumn/>
-        <RightColumn/>
+        <NavBar/>
+        <PageData/>
     </div>
 );
 

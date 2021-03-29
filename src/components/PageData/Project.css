@@ -1,6 +1,6 @@
 .projects-heading {
     font-size: xx-large;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
     color: black;
 }
 
@@ -35,7 +35,8 @@
     background: #007CC7;
     color: white;
     font-size: x-large;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
@@ -43,7 +44,7 @@
 
 .project-description {
     font-size: larger;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
@@ -59,6 +60,12 @@
     margin-top: auto;
     text-align: left;
     padding-left: 3%;
+}
+
+.project-start {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
 }
 
 /*Reference W3 Schools https://www.w3schools.com/howto/howto_css_pill_button.asp*/
@@ -84,5 +91,10 @@
         width: 88%;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .project-start {
+        font-size: 22px;
+        font-weight: bold;
     }
 }

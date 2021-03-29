@@ -1,7 +1,6 @@
 import React from 'react';
-import profile from '../../assets/Images/profile.jpg'
 import SocialMedia from './SocialMedia';
-import './LeftColumn.css'
+import './NavBar.css'
 
 /**
  * This represents the component for the Profile information
@@ -11,7 +10,6 @@ import './LeftColumn.css'
  */
 const Profile = () => (
     <div className="profile">
-        <img src={profile} className="profile-image"/>
         <p className="name">Dheeraj Dhall</p>
         <SocialMedia/>
     </div>

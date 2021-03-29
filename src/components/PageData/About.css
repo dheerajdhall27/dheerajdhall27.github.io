@@ -1,0 +1,46 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.profile-image {
+    width: 20%;
+    margin-left: 10%;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.introduction {
+    color: black;
+    font-size: xx-large;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    text-align-last: left;
+    text-align-last: left;
+    margin-left: 2%;
+    line-height: 14pt;
+    margin-top: 5%;
+}
+
+.biryani {
+    font-weight: bold;    
+}
+
+
+@media screen and (max-width: 900px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-image {
+        width: 80%;
+    }
+
+    .introduction {
+        text-align: center;
+        text-align-last: center;
+        line-height: 25pt;
+        font-size: medium;
+    }
+}

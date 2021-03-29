@@ -1,0 +1,61 @@
+/*Profile related CSS*/
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-image {
+    width: 20%;    
+    border-radius: 5%;
+    justify-content: center;
+}
+
+.name {
+    font-size: 3em;
+    color: white;
+}
+
+
+
+/*End of Profile related CSS*/
+
+
+/* Social Media Icons*/
+
+.linkedin {
+    width: 34px;
+    height: 34px;
+}
+
+.github {
+    width: 34px;
+    height:34px;
+}
+
+.twitter {
+    width: 34px;
+    height:34px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 2%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 900px) {
+    .name {
+        font-size: x-large;
+    }
+
+    .social {
+        margin-bottom: 3%;
+    }
+}
+

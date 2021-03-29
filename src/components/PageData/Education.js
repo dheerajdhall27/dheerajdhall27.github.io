@@ -24,15 +24,18 @@ const Education = () => {
     ]    
 
     return(
-        <div className="education">
-            {
-                education.map((data, index) => {
-                    return <EducationCard key={index} 
-                                    university_name={data.university_name}
-                                    college_name={data.college_name}
-                                    desc={data.desc}/>
-                })
-            }
+        <div>
+            <p className="alma-mater">My Alma Mater</p>
+            <div className="education">
+                {
+                    education.map((data, index) => {
+                        return <EducationCard key={index} 
+                                        university_name={data.university_name}
+                                        college_name={data.college_name}
+                                        desc={data.desc}/>
+                    })
+                }
+            </div>
         </div>
     );
 }

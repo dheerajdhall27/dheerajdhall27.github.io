@@ -1,5 +1,6 @@
 import React from 'react';
 import WorkExperienceCard from './WorkExperienceCard';
+import './WorkExperience.css';
 
 const WorkExperience = () => {
     const experience = [
@@ -32,6 +33,7 @@ const WorkExperience = () => {
 
     return(
         <div>
+            <p className="work-heading">Companies I have worked with</p>
             <div className="work-experience">
                 {
                     experience.map((exp, index) => {

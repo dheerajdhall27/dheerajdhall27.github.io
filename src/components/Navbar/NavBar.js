@@ -9,12 +9,11 @@ import "../Layout/Layout.css"
  * It consists of the Profile information and a navigator for the
  * website.
  */
-const LeftColumn = (props) => (
-    <div className="column left">
+const NavBar = (props) => (
+    <div className="column">
         <Profile/>
-        <Navigator/>
     </div>
 );
 
 
-export default LeftColumn;
+export default NavBar;

@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import './Project.css'
 
 const Project = () => {
 
@@ -85,7 +86,7 @@ const Project = () => {
 
     return(
         <div>
-            <p className="projects-heading">PROJECTS</p>
+            <p className="project-start">Few projects that I worked on</p>
             <div className="project">
                 {
                     project_data.map((project, index) => {

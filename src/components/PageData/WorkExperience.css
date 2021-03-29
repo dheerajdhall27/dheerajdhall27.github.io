@@ -4,15 +4,22 @@
     flex-wrap: wrap;
 }
 
+.work-heading {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
 
 .work-experience-card {
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     background-color: #EEFBFB;
-    width: 40%;
+    width: 30%;
     color: black;
     margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
     margin-left: 3%;
 }
@@ -20,7 +27,9 @@
 .work-experience-header {
     background: #203647;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;    
@@ -37,7 +46,7 @@
 .work-experience-body {
     text-align: left;
     padding: 1% 4% 4% 4%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: larger;
 }
 
@@ -58,9 +67,16 @@
         width: 88%;
         margin-top: 20px;
         margin-bottom: 20px;
+        margin-left: 23px;
     }
 
     .work-experience-header .company {
         font-size: large;
     }    
+
+    .work-heading {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
 }
