@@ -1,6 +1,7 @@
-.column {
+.bar {
     text-align: center;
     background-color: #12232E;
+    width: 100%;
 }
 
 .left {
@@ -8,14 +9,18 @@
     color: white;
 }
     
-.right {
+.page {
     background-color: white;
     color: white;
 }
 
 
 @media screen and (max-width: 900px) {
-    .right {
+    .bar {
+        width: 100%;
+    }
+
+    .bar {
         width: 100%;
         height: 100%;
     }

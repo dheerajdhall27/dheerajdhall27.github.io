@@ -10,7 +10,7 @@ import "../Layout/Layout.css"
  * website.
  */
 const NavBar = (props) => (
-    <div className="column">
+    <div className="bar">
         <Profile/>
     </div>
 );

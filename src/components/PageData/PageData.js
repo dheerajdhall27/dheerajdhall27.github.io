@@ -7,7 +7,7 @@ import TabsConsolidator from './TabsConsolidator';
  * The intention is to populate this based on the navigation chosen
  */
 const PageData = () => (
-    <div className="column right">
+    <div className="bar page">
         <TabsConsolidator/>
     </div>
 );
