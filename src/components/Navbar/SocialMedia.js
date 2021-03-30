@@ -3,7 +3,7 @@ import GitHub from '../../assets/Images/GitHub.png'
 import LinkedIn from '../../assets/Images/LinkedIn.png';
 import Twitter from '../../assets/Images/Twitter.png';
 import { GITHUB_LINK, LINKEDIN_LINK, TWITTER_LINK } from '../../common/Constants';
-import './NavBar.css'
+import './MainHeader.css'
 
 /**
  * This component represents the social media icons

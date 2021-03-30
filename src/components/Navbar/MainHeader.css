@@ -49,6 +49,23 @@ ul {
     list-style-type: none;
 }
 
+
+/*
+* Common Header
+*/
+.header {
+    background-color: #12232E;
+    width: 100%;
+}
+
+.header .name {
+    margin-left: 10px;
+    font-size: x-large;
+}
+/*
+* End of Common Header
+*/
+
 @media screen and (max-width: 900px) {
     .name {
         font-size: x-large;
@@ -56,6 +73,10 @@ ul {
 
     .social {
         margin-bottom: 3%;
+    }
+
+    .header .name {
+        font-size: medium;
     }
 }
 

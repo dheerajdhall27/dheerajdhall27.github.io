@@ -1,10 +1,17 @@
 import React from 'react';
 import GitHub from '../../assets/Images/GitHubBlack.png'
-import Link from '../../assets/Images/link.png'
+import {useHistory} from 'react-router-dom';
+import LinkImage from '../../assets/Images/link.png'
 import './Project.css'
 
 const ProjectCard = (props) => {
+    let history = useHistory();
     
+    const viewProjectBtn = () => {
+        let path = props.Heading.toLowerCase().split(" ").join("_");
+        history.push('/' + path + '/');
+    }
+
     return(
         <div className="project-card">
             <div className="project-header">
@@ -21,8 +28,13 @@ const ProjectCard = (props) => {
                         })
                     }
                 </div>
-                <div className="project-link">
-                    <a href={props.Link} target="_blank"><img src={props.GitHub === 'true' ? GitHub : Link}/></a>
+                <div className="interactable">
+                    <div className="project-link">
+                        <a href={props.Link} target="_blank"><img src={props.GitHub === 'true' ? GitHub : LinkImage}/></a>
+                    </div>
+                    {
+                        props.Interactable === 'true' && <button onClick={() => viewProjectBtn()}>View</button>
+                    }
                 </div>
             </div>
         </div>

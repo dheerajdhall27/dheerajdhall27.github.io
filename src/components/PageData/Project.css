@@ -82,6 +82,23 @@
     border-radius: 16px;
 }
 
+.interactable {
+    display: flex;
+}
+
+.interactable > button  {
+    background-color: indianred;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 60px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 70%;
+}
 
 @media screen and (max-width: 900px) {
     .project {
@@ -96,5 +113,9 @@
     .project-start {
         font-size: 22px;
         font-weight: bold;
+    }
+
+    .interactable > button{
+        margin-left: 60%;
     }
 }

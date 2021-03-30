@@ -1,6 +1,6 @@
 import React from 'react';
 import SocialMedia from './SocialMedia';
-import './NavBar.css'
+import './MainHeader.css'
 
 /**
  * This represents the component for the Profile information
@@ -8,11 +8,11 @@ import './NavBar.css'
  * 2. Links to Social media
  * 3. Small Description
  */
-const Profile = () => (
+const MainHeaderContent = () => (
     <div className="profile">
         <p className="name">Dheeraj Dhall</p>
         <SocialMedia/>
     </div>
 );
 
-export default Profile;
+export default MainHeaderContent;

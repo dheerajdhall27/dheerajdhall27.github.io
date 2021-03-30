@@ -1,0 +1,40 @@
+.main-panel{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-panel {
+    height: 100vh;
+    width: 20%;
+    background-color: indianred;
+    padding: 2%;
+}
+
+.right-panel {
+    width: 80%;
+}
+
+.graph-panel {
+    display: flex;
+    background: snow;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .main-panel {
+        flex-direction: column;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .left-panel {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-panel {
+        width: 100%;
+    }
+}

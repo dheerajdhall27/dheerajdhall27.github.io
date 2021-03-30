@@ -1,6 +1,5 @@
 import React from 'react';
-import Profile from './Profile';
-import Navigator from './Navigator';
+import MainHeaderContent from './MainHeaderContent';
 import "../Layout/Layout.css"
 
 
@@ -9,11 +8,11 @@ import "../Layout/Layout.css"
  * It consists of the Profile information and a navigator for the
  * website.
  */
-const NavBar = (props) => (
+const MainHeader = (props) => (
     <div className="bar">
-        <Profile/>
+        <MainHeaderContent/>
     </div>
 );
 
 
-export default NavBar;
+export default MainHeader;
