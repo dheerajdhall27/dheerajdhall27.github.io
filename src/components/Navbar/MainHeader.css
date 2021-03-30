@@ -61,6 +61,7 @@ ul {
 .header .name {
     margin-left: 10px;
     font-size: x-large;
+    cursor: pointer;
 }
 /*
 * End of Common Header

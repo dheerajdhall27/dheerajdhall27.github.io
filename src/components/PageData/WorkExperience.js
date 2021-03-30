@@ -18,7 +18,7 @@ const WorkExperience = () => {
             Stack: ["C#", "Unity3D"],
         },
         {
-            Company: "Backstage Pass Institute of technology",
+            Company: "Backstage Pass",
             Title: "Lecturer - Computer Science",
             Description: "Taught C# and game development concepts to undergraduate students.",
             Stack: ["C#", "Unity3D"],
@@ -33,7 +33,7 @@ const WorkExperience = () => {
 
     return(
         <div>
-            <p className="work-heading">Companies I have worked with</p>
+            <p className="work-heading">Work Experience</p>
             <div className="work-experience">
                 {
                     experience.map((exp, index) => {

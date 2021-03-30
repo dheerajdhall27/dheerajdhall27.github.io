@@ -30,7 +30,7 @@ const ProjectCard = (props) => {
                 </div>
                 <div className="interactable">
                     <div className="project-link">
-                        <a href={props.Link} target="_blank"><img src={props.GitHub === 'true' ? GitHub : LinkImage}/></a>
+                        <a href={props.Link} target="_blank" rel="noreferrer"><img alt="Project reference" src={props.GitHub === 'true' ? GitHub : LinkImage}/></a>
                     </div>
                     {
                         props.Interactable === 'true' && <button onClick={() => viewProjectBtn()}>View</button>

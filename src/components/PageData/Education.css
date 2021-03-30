@@ -1,7 +1,7 @@
 .education {
     display: flex;
     flex-direction: row;
-    padding-left: 15px;
+    padding-left: 8%;
 }
 
 .alma-mater {
@@ -14,14 +14,14 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     background-color: #EEFBFB;
     border-radius: 10px;
-    width: 30%;
+    width: 28%;
     color: black;
     margin-top: 20px;
     margin-left: 20px;
 }
 
 .university-header {
-    background: #203647;
+    background: lightslategray;
     color: white;
     font-size: x-large;
     padding: 1px;
@@ -36,7 +36,7 @@
     font-size: larger;
     text-align: left;
     padding-left: 2%;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .university-footer {
@@ -51,10 +51,13 @@
     .education {
         display: flex;
         flex-direction: column;
+        padding-left: 2%;
     }
 
     .education-card {
         width: 88%;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .alma-mater {

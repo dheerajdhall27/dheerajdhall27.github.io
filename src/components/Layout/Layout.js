@@ -9,7 +9,7 @@ import Header from '../Navbar/Header';
  * This represents the layout of the site.
  * Currently chosen to be a two column layout.
  */
-const Layout = (props) => {
+const Layout = () => {
     return (
         <div>
             <Router>

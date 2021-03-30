@@ -10,9 +10,9 @@ import './MainHeader.css'
  */
 const SocialMedia = () =>(
     <div className="social">
-        <a href={GITHUB_LINK} target="_blank"><img src={GitHub} className="github"/></a>
-        <a href={LINKEDIN_LINK} target="_blank"><img src={LinkedIn} className="linkedin"/></a>
-        <a href={TWITTER_LINK} target="_blank"><img src={Twitter} className="twitter"/></a>
+        <a href={GITHUB_LINK} target="_blank" rel="noreferrer"><img src={GitHub} className="github" alt="Github"/></a>
+        <a href={LINKEDIN_LINK} target="_blank" rel="noreferrer"><img src={LinkedIn} className="linkedin" alt="LinkedIn"/></a>
+        <a href={TWITTER_LINK} target="_blank" rel="noreferrer"><img src={Twitter} className="twitter" alt="Twitter"/></a>
     </div>
 );
 

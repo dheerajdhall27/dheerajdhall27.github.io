@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ALGORITHMS_ARRAY } from '../../../common/Constants';
 import AlgorithmButtonComponent from './algorithm_buttons_component/AlgorithmButtonComponent';
 import OrderingComponent from './ordering_component/OrderingComponent';
@@ -16,9 +16,9 @@ const ButtonComponent = (props) => {
   }
 
 
-  const setOrderByAscending = (e) => {
-    props.setOrderByAscending(e.target.value === "increasing")
-  }
+  // const setOrderByAscending = (e) => {
+  //   props.setOrderByAscending(e.target.value === "increasing")
+  // }
 
   return (
     <div >

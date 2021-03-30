@@ -97,7 +97,7 @@ const Project = (props) => {
 
     return(
         <div>
-            <p className="project-start">Few projects that I worked on</p>
+            <p className="project-start">Projects</p>
             <div className="project">
                 {
                     project_data.map((project, index) => {

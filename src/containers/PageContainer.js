@@ -10,7 +10,7 @@ import MainHeader from '../components/Navbar/MainHeader';
 /**
  * This represents the main content of the website
  */
-const PageContainer = (props) => {
+const PageContainer = () => {
     
     return (
         <div className="bar page">

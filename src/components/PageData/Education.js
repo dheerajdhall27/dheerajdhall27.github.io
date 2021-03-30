@@ -12,7 +12,7 @@ const Education = () => {
             desc: ["Candidate for a Master of Science in Computer Science"]
         },
         {
-            university_name : ["Jawaharlal Nehru Architecture and Fine Arts University"],
+            university_name : ["J N A F A U"],
             college_name: ["Backstage Pass Institute of technology"],
             desc: ["Bachelor of Technology in Computer Science and Game Development"]
         },

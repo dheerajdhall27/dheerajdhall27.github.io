@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 7%;
 }
 
 .work-heading {
@@ -16,16 +17,16 @@
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     background-color: #EEFBFB;
-    width: 30%;
+    width: 28%;
     color: black;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    margin-left: 3%;
+    margin-left: 20px;
 }
 
 .work-experience-header {
-    background: #203647;
+    background: rosybrown;
     color: white;
     font-size: x-large;
     font-family: 'Poppins', sans-serif;
