@@ -4,6 +4,8 @@ export const GITHUB_LINK = "https://github.com/dheerajdhall27";
 
 export const TWITTER_LINK = "https://twitter.com/DheerajDhall5";
 
+export const FCC_LINK = "https://www.freecodecamp.org/generic27";
+
 
 
 

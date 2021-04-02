@@ -64,6 +64,7 @@
 .project-start {
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     color: black;
 }
 
@@ -112,7 +113,7 @@
     }
 
     .project-start {
-        font-size: 22px;
+        font-size: 35px;
         font-weight: bold;
     }
 

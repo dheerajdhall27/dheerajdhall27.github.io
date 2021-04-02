@@ -3,11 +3,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 7%;
+    padding-bottom: 5%;
 }
 
 .work-heading {
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     color: black;
 }
 
@@ -63,6 +65,7 @@
 @media screen and (max-width: 900px) {
     .work-experience {
         padding-left: 2%;
+        padding-bottom: 15%;
     }
 
     .work-experience-card {
@@ -73,11 +76,11 @@
     }
 
     .work-experience-header .company {
-        font-size: large;
+        font-size: larger;
     }    
 
     .work-heading {
-        font-size: 22px;
+        font-size: 35px;
         font-weight: bold;
         margin-top: 50px;
     }

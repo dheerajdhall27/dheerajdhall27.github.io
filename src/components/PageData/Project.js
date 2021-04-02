@@ -70,7 +70,7 @@ const Project = (props) => {
             Interactable:'false'
         },
         {
-            Heading: "MapReduce and Spark Design Patterns",
+            Heading: "MapReduce and Spark",
             Description: "A collection of implementation of Distributed design patterns",
             Stack: ["Java", "Scala", "Apache Spark", "Hadoop MapReduce", "AWS-S3", "AWS-EMR"],
             Link: "https://github.com/dheerajdhall27/Kmeans",
